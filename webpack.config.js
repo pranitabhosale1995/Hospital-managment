@@ -9,7 +9,7 @@ module.exports = (env, argv) => {
   const config = {};
   config.mode = argv.mode;
 
-  config.entry = [path.join(__dirname, "/src/index.jsx")];
+  config.entry = [path.join(__dirname, "/src/index.js")];
   config.output = {
     path: path.join(__dirname, "/dist"),
     filename: isProd ? "[name].[hash].js" : "[name].js"
