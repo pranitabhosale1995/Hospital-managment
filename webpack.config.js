@@ -51,7 +51,7 @@ module.exports = (env, argv) => {
 
       new CleanWebpackPlugin(),
       new HtmlWebpackPlugin({
-        template: path.join(__dirname, "/SRC_TEMPLATE/index.html"),
+        template: path.join(__dirname, "/HTML_TEMPLATE/index.html"),
         minify: {
           collapseWhitespace: true,
           minifyCSS: true
@@ -62,7 +62,7 @@ module.exports = (env, argv) => {
     config.devtool = "eval";
     config.plugins.push(
       new HtmlWebpackPlugin({
-        template: path.join(__dirname, "/SRC_TEMPLATE/index.html"),
+        template: path.join(__dirname, "/HTML_TEMPLATE/index.html"),
         minify: {
           collapseWhitespace: false,
           minifyCSS: false
@@ -78,7 +78,7 @@ module.exports = (env, argv) => {
   config.plugins.push(
     new CopyWebpackPlugin(
       [{
-        from: path.join(__dirname, "/SRC_TEMPLATE")
+        from: path.join(__dirname, "/HTML_TEMPLATE")
       }], {
         ignore: ["*.html", "service-worker.js"]
       }
