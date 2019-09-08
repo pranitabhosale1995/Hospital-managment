@@ -1,9 +1,9 @@
 {
   "name": "@apptitude.in/comps",
   "description": "React Core Basic Components",
-  "author": "Apptitude Infotech <apptitude.infotech@gmail.com> (https://apptitude.in/)",
+  "author": "https://github.com/pranitabhosale1995/Hospital-managment.git",
   "version": "1.0.0",
-  "homepage": "https://github.com/ApptitudeInfotech/comps",
+  "homepage": "https://github.com/pranitabhosale1995/Hospital-managment.git",
   "license": "MIT",
   "main": "src/index.js",
   "scripts": {
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ApptitudeInfotech/comps.git"
+    "url": "https://github.com/pranitabhosale1995/Hospital-managment.git"
   },
   "keywords": [
     "react",
@@ -29,7 +29,7 @@
     "jsx"
   ],
   "bugs": {
-    "url": "https://github.com/ApptitudeInfotech/comps/issues"
+    "url": "https://github.com/pranitabhosale1995/Hospital-managment.git"
   },
   "dependencies": {
     "axios": "^0.19.0",
