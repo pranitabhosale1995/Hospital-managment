@@ -1,0 +1,13 @@
+{
+  "name": "ReactComps",
+  "short_name": "ReactComps",
+  "icons": [{
+    "src": "app-icon.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "start_url": "/comps/",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#fafafa"
+}

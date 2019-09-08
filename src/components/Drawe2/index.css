@@ -1,0 +1,56 @@
+
+/* 
+______________________________________________- DRAWER */
+
+.ai-drawer {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    width: 180px;
+    height: 100%;
+    visibility: hidden;
+    will-change: transform;
+    overflow: auto;
+    transition-duration: 0.3s;
+    transform: translate3d(-100%, 0, 0);
+    transform-style: preserve-3d;
+    z-index: 1010;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none; 
+    background-color: rgb(106, 100, 169)
+  }
+  
+  .ai-drawer.opened {
+    visibility: visible;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .ai-drawer.closed {
+    transform: translate3d(-100%, 0, 0);
+    visibility: hidden;
+  }
+  
+  .ai-drawer .drawer-menu-icon {
+    display: block;
+    padding: 5px 0 5px 0;
+    color: #757575;
+    text-decoration: none;
+  }
+  
+  .ai-drawer .drawer-menu-icon-title {
+    margin-top: -4px;  
+  }
+  
+  .ai-drawer .drawer-menu-icon:active {
+    background-color: #9E9E9E;
+    text-decoration: none;
+  }
+  
+  /* ListView Css*/
+  .ai-drawer.listView {
+    width: 280px !important;
+  }
+  

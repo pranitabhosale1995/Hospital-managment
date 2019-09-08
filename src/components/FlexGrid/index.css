@@ -1,0 +1,28 @@
+/*
+___________________________________________________ Flex*/
+
+.flex_row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+.flex_column {
+    display: flex;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    align-content: stretch !important;
+    max-width: 100%;
+}
+
+/*
+___________________________________________________ FlexItem */
+
+.flex_item {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    margin: 4px;
+}

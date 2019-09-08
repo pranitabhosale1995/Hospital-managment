@@ -1,0 +1,211 @@
+html {
+    box-sizing: border-box;                       
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;    
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+b, strong {
+    font-weight:bold;
+}                        
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    color:#212121;    
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:14px;                
+}
+
+@media print {
+    body {
+        background-color: #fff;
+    }
+}  
+
+ /* DISPLAY UTILS ClassNames*/
+ .displayNone {
+    display: none !important;
+}
+.displayBlock {
+    display: block !important;
+}
+.displayInline {
+    display: inline !important;
+}
+.displayInlineBlock {
+    display: inline-block !important;
+}
+
+
+/*- TEXT UTILS ClassNames*/
+.textLeft {
+    text-align: left !important;
+}
+.textRight {
+    text-align: right !important;
+}
+.textJustify {
+    text-align: justify !important;
+}
+.textCenter {
+    text-align: center !important;
+}
+.textNoWrap {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.textCaps {
+    text-transform: capitalize !important;
+}
+.textCapsAll {
+    text-transform: uppercase !important;
+}
+
+
+/*- MISC. UTILS ClassNames*/
+.shadow1 {
+    box-shadow: 0 1px 2.5px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+}
+.shadow2 {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.shadow3 {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.transparent {
+    background-color: transparent !important;
+}
+  
+.responsive {
+    display: block;
+    overflow-x: auto;
+}                  
+.fullWidth {
+    display: block;
+    width: 100%;
+}
+.stretch {
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+}                    
+
+.floatLeft {
+    float: left !important;
+}
+.floatRight {
+    float: right !important;
+}            
+
+
+
+/* - PADDING / MARGIN ClassNames*/
+/* ->>>>>>>>>>>>MARGIN */
+ /*normal/medium*/
+.margin {
+    margin: 1rem !important;
+}
+.marginLeft {
+    margin-left: 1rem !important;                   
+}
+.marginRight {                   
+    margin-right: 1rem !important;
+}
+.marginX {
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+}
+.marginY {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+
+/*small*/
+.marginSmall {
+    margin: 0.5rem !important;
+}
+.marginSmallLeft {
+    margin-left: 0.5rem !important;                   
+}
+.marginSmallRight {                   
+    margin-right: 0.5rem !important;
+}
+.marginSmallX {
+    margin-left: 0.5rem !important;
+    margin-right: 0.5rem !important;
+}
+.marginSmallY {
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+}
+
+/*large*/
+.marginLarge {
+    margin: 2rem !important;
+}
+
+/* ->>>>>>>>PADDING */
+/*normal/medium*/
+.padding {
+    padding: 1rem !important;
+}
+.paddingLeft {
+    padding-left: 1rem !important;                   
+}
+.paddingRight {                   
+    padding-right: 1rem !important;
+}
+.paddingX {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+.paddingY {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+/*small*/
+.paddingSmall {
+    padding: 0.5rem !important;
+}
+.paddingSmallLeft {
+    padding-left: 0.5rem !important;                   
+}
+.paddingSmallRight {                   
+    padding-right: 0.5rem !important;
+}
+.paddingSmallX {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+}
+.paddingSmallY {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
+/*large*/
+.paddingLarge {
+    padding: 2rem !important;
+}  
+.color{
+    background-color: rgb(106, 100, 169)
+}
+.avatar {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .pr{
+      background-color: "rgb(106, 100, 169)";
+      width: 30%;
+height: 100%;
+  }

@@ -1,0 +1,62 @@
+{
+  "name": "@apptitude.in/comps",
+  "description": "React Core Basic Components",
+  "author": "Apptitude Infotech <apptitude.infotech@gmail.com> (https://apptitude.in/)",
+  "version": "1.0.0",
+  "homepage": "https://github.com/ApptitudeInfotech/comps",
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode=development --history-api-fallback --inline --hot",
+    "build": "webpack --mode=production --bail --progress --profile && npm run pwa",
+    "pwa": "workbox generateSW workbox-config.js",
+    "deploy": "gh-pages -d dist",
+    "publish-demo": "npm run build && npm run deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ApptitudeInfotech/comps.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "react-components",
+    "javascript",
+    "material",
+    "ui-components",
+    "@apptitude.in",
+    "aapptitude",
+    "jsx"
+  ],
+  "bugs": {
+    "url": "https://github.com/ApptitudeInfotech/comps/issues"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "clsx": "^1.0.4",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "react-router-dom": "^4.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.0",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^2.0.2",
+    "copy-webpack-plugin": "^5.0.3",
+    "css-loader": "^3.1.0",
+    "eslint": "^6.0.1",
+    "eslint-plugin-react": "^7.14.2",
+    "gh-pages": "^2.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
