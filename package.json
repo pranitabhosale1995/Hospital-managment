@@ -8,8 +8,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "webpack-dev-server --mode=development --history-api-fallback --inline --hot",
-    "build": "webpack --mode=production --bail --progress --profile && npm run pwa",
-    "pwa": "workbox generateSW workbox-config.js",
+    "build": "webpack --mode=production --bail --progress --profile",
     "deploy": "gh-pages -d dist",
     "publish-demo": "npm run build && npm run deploy"
   },
