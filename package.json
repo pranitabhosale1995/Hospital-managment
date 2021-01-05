@@ -31,7 +31,7 @@
     "url": "https://github.com/pranitabhosale1995/Hospital-managment.git"
   },
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "clsx": "^1.0.4",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
